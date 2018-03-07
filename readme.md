@@ -2,6 +2,9 @@
 
 Build a change calculator that when given an argument of dollars and cents, output the smallest quantity of bills and coins equal to the amount.
 
+For the candidates leaning towards the back end, you can build it in **Ruby**. For those leaning more towards the front end, you can build it in **JavaScript**.
+
+## Homework
 In the USA, we have the following types of currency…
 
   * $100 dollar bill
