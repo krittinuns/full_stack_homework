@@ -1,0 +1,21 @@
+<h2>Change Machine</h2>
+<div class="row">
+  <div class="col-md-12">
+    <%= form_tag({controller: "change_machine", action: "get_change"}, class: "form-horizontal", role: "form") do %>
+      <div class="form-group">
+        <div class="control-label col-sm-2">
+          <%= label_tag :amount, "Change Amount : " %>
+        </div>
+        <div class="col-sm-8">
+          <%= text_field_tag :amount, @amount, class: "form-control", placehoder: "0.01", autofocus: true %>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-8">
+          <%= submit_tag "Get Change", class: "btn btn-success" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
